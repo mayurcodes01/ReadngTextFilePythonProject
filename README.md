@@ -1,21 +1,21 @@
 # ReadingTextFilePythonProject
 
-This is a **Text-to-Speech (TTS) Text File Reader** written in Python.\
+This is a **Text-to-Speech (TTS) Text File Reader** written in Python.
 It allows users to open a `.txt` file, read its contents, and listen to
 the text using the `pyttsx3` library.
 
 The project comes with a simple **Graphical User Interface (GUI)** built
-using `tkinter`, where users can:\
-- Select a text file via file dialog.\
+using `tkinter`, where users can:
+- Select a text file via file dialog.
 - Set a custom reading speed before playback.
 
 ------------------------------------------------------------------------
 
 ## Features
 
--   Open and read any `.txt` file.\
--   Text-to-Speech functionality using **pyttsx3**.\
--   Customizable reading speed.\
+-   Open and read any `.txt` file.
+-   Text-to-Speech functionality using **pyttsx3**.
+-   Customizable reading speed.
 -   Lightweight and beginner-friendly Python project.
 
 ------------------------------------------------------------------------
@@ -45,8 +45,8 @@ Run the script with Python:
 python main.py
 ```
 
-1.  A file dialog will open → Select a `.txt` file.\
-2.  Enter your desired reading speed (default is system voice rate).\
+1.  A file dialog will open → Select a `.txt` file.
+2.  Enter your desired reading speed (default is system voice rate).
 3.  The program will read the file aloud.
 
 ------------------------------------------------------------------------
@@ -83,16 +83,16 @@ read_text_file()
 
 ## Requirements
 
--   Python 3.x\
--   `pyttsx3` library\
+-   Python 3.x
+-   `pyttsx3` library
 -   `tkinter` (comes pre-installed with Python)
 
 ------------------------------------------------------------------------
 
 ## Future Improvements
 
--   Add pause/resume/stop functionality.\
--   Support for multiple languages and voices.\
+-   Add pause/resume/stop functionality.
+-   Support for multiple languages and voices.
 -   GUI with buttons instead of dialogs.
 
 ------------------------------------------------------------------------
